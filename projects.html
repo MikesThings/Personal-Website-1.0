@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Michael Baldino</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">Michael Baldino</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects">
+        <h1 class="title">My Projects</h1>
+        <p class="section__text__p1">Explore some of my featured work</p>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="./assets/project1.png" alt="Project 1 Screenshot" class="project-image">
+                <h2 class="project-title">Project 1: Portfolio Website</h2>
+                <p class="project-description">A modern portfolio website showcasing my skills and projects, built with HTML, CSS, and JavaScript.</p>
+                <button class="btn btn-color-1" onclick="window.open('https://github.com/')">View Code</button>
+                <button class="btn btn-color-2" onclick="window.open('https://example.com')">Live Demo</button>
+            </div>
+            <div class="project-card">
+                <img src="./assets/project2.png" alt="Project 2 Screenshot" class="project-image">
+                <h2 class="project-title">Project 2: E-Commerce App</h2>
+                <p class="project-description">A full-stack e-commerce application built with React and Node.js. Features user authentication and payment gateway integration.</p>
+                <button class="btn btn-color-1" onclick="window.open('https://github.com/')">View Code</button>
+                <button class="btn btn-color-2" onclick="window.open('https://example.com')">Live Demo</button>
+            </div>
+            <div class="project-card">
+                <img src="./assets/ESP32 Breadboard build.png" alt="ESP32 Build" class="project-image">
+                <h2 class="project-title">Home Security System</h2>
+                <p class="project-description">This project involves the development of a smart home safety device using an ESP32 microcontroller kit. The device is equipped with a PIR (Passive Infrared) motion sensor to detect movement within a designated area. Upon detecting motion, the ESP32 triggers an alert system, which includes a loud buzzer and LED indicators.</p>
+                <button class="btn btn-color-1" onclick="window.open('https://github.com/MikesThings/HomeSecuritySystem')">View Code</button>
+                <button class="btn btn-color-2" onclick="window.open('https://www.youtube.com/watch?v=m4nACsacNmk')">Live Demo</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
